@@ -12,6 +12,7 @@ import {
 
 export function Transaction() {
   const { transactions } = useContext(TransactionsContext);
+  console.log(transactions);
 
   return (
     <div>
